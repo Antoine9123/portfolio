@@ -21,3 +21,13 @@ body {
   background-repeat: no-repeat;
   background-blend-mode: soft-light;
 }
+
+::selection {
+  background: white;
+  color: #000;
+}
+
+::-moz-selection {
+  background: white; 
+  color: #000; 
+}

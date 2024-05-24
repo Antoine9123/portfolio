@@ -1,0 +1,20 @@
+*{
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    
+}
+
+h3 {
+    font-size: 36px; 
+    margin-top: 44px;
+
+    &:hover { 
+        color: #CC7676;
+        transition: 0.5s;
+      }
+}
+
+h4 {
+    font-size: 16px; 
+    color:#96AEB2;
+}

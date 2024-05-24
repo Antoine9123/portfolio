@@ -1,0 +1,37 @@
+* {
+    margin-bottom: 7px;
+  }
+  
+  h1 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 40px; 
+  }
+  
+  h2 {
+    font-family: "Julius Sans One", sans-serif;
+    font-weight: 400;
+    font-size: 24px; 
+    margin-bottom: 25px;
+  }
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  
+    li {
+      list-style: none;
+      font-family: "Josefin Slab", serif;
+      font-optical-sizing: auto;
+      font-weight: 400;
+      font-style: normal;
+      font-size: 24px;
+      transform: translateX(20px);
+  
+      &:hover { 
+        color: #96AEB2;
+      }
+    }
+  }
+  

@@ -28,11 +28,18 @@
       font-style: normal;
       font-size: 24px;
       transform: translateX(20px);
-  
-      &:hover { 
-        color: #96AEB2;
-        transition: 0.5s;
+
+      a {
+        text-decoration: none;
+        color: white;
+
+        &:hover { 
+          color: #96AEB2;
+          transition: 0.5s;
+        }
       }
+  
+      
     }
   }
   

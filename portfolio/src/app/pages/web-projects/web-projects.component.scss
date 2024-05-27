@@ -9,6 +9,17 @@
 h3 {
     font-size: 36px; 
     margin-top: 44px;
+    text-decoration: none;
+    a {
+        text-decoration: none;
+        color:white ;
+
+        &:hover { 
+            color: #CC7676;
+            transition: 0.5s;
+          }
+    }
+
 
     &:hover { 
         color: #CC7676;
@@ -21,6 +32,9 @@ h4 {
     color:#96AEB2;
 
     a {
+        text-decoration: none;
+        color:#96AEB2;
+
         &:hover { 
             color: #CC7676;
             transition: 0.5s;

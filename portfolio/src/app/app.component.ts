@@ -14,5 +14,4 @@ import { ContactComponent } from './pages/contact/contact.component'
   styleUrl: './app.component.scss'
 })
 export class AppComponent {
-  title = 'portfolio';
 }

@@ -22,7 +22,7 @@ form {
 
         input[type="text"],
         input[type="email"] {
-        width: 18vw; 
+        width: 440px; 
         height: 4vh; 
         padding: 8px; 
         border: 0.5px solid #96AEB2; 
@@ -37,7 +37,7 @@ form {
         }
 
         textarea {
-            width: 18vw;
+            width: 440px;
             height: 20vh; 
             padding: 8px; 
             border: 0.5px solid #96AEB2; 
@@ -55,7 +55,7 @@ form {
     button[type="submit"] {
         margin-top: 14px;
         padding: 15px 20px; 
-        width: 18vw;
+        width: 440px;
         background-color: #96AEB2; 
         color: black; 
         border: none; 
@@ -68,3 +68,5 @@ form {
         }
 
 }
+
+

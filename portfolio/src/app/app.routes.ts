@@ -6,12 +6,13 @@ import { WebProjectsComponent } from './pages/web-projects/web-projects.componen
 
 export const routes: Routes = [
     {
-        path: 'home', component: HomeComponent
+        path: 'home', component: HomeComponent, data: { title: 'Home' }
     },
     {
-        path: 'contact', component: ContactComponent
+        path: 'contact', component: ContactComponent, data: { title: 'Contact' }
     },
     {
-        path: 'webprojects', component: WebProjectsComponent
-    }
+        path: 'webprojects', component: WebProjectsComponent, data: { title: 'Web Projects' }
+    },
+    { path: '', redirectTo: '/home', pathMatch: 'full' }
 ];

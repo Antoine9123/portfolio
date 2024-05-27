@@ -48,4 +48,8 @@ ul {
   transition: 0.5s;
 }
 
-
+@media (max-width: 666px){
+  span{
+    display: none;
+  }
+}
